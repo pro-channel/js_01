@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>プログラミングちゃんねる</title>
+    <script>
+      // 背景色を赤にする
+      function SetBgRed() {
+        document.body.bgColor = "#ff0000";
+      }
+      // 引数の背景色を設定する
+      function SetBg(color) {
+        document.body.bgColor = color;
+      }
+      
+    </script>
+  </head>
+  <body>
+    <h1>JavaScript入門</h1>
+    <button onclick="SetBgRed();">赤背景</button>
+    <button onclick="SetBg('#0000ff');">青背景</button>
+  </body>
+</html>
